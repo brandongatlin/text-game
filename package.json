@@ -1,0 +1,25 @@
+{
+  "name": "text-me",
+  "version": "1.0.0",
+  "description": "text based game",
+  "main": "game.js",
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandongatlin/text-game.git"
+  },
+  "keywords": [
+    "text"
+  ],
+  "author": "brandon gatlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brandongatlin/text-game/issues"
+  },
+  "homepage": "https://github.com/brandongatlin/text-game#readme",
+  "dependencies": {
+    "inquirer": "^4.0.0"
+  }
+}
