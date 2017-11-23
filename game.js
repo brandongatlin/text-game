@@ -43,5 +43,17 @@ inquirer.prompt(questionsArr).then(answers => {
   if (answers.motive === "Love") {
     console.log("Well, even if you're not here for revenge, you may still need this " + answers.weapon + " ha ha ha ha....");
   }
+  inquirer.prompt(questionsArr2).then(answers => {
+    console.log(JSON.stringify(answers, null, 2));
+  });
 
-}); //inquierer.prompt
+}); //end inquierer.prompt
+
+var questionsArr2 = [{
+    type: "input",
+    message: "what's your sign",
+    name: "sign",
+    default: "Virgo"
+  }
+
+];
